@@ -1,0 +1,182 @@
+:root {
+  --white-text: #FFFFFF;
+  --black-text: #212121;
+  --grey-text: #757575;
+  --grey-text-op60: rgba(255, 255, 255, 0.6);
+  --back-light-black: #2F303A;
+  --back-light-grey: #F5F4FA;
+  --back-blue: #2196F3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-black {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--black-text);
+}
+
+.logo-blue {
+  color: var(--back-blue);
+}
+
+.link-black {
+  color: var(--black-text);
+}
+
+.current:visited {
+  color: var(--back-blue);
+}
+
+.link-grey {
+  color: var(--grey-text);
+}
+
+.link-black:hover,
+.link-black:focus {
+  color: var(--back-blue);
+}
+
+.link-grey:hover,
+.link-grey:focus {
+  color: var(--back-blue);
+}
+
+.hero {
+  background: var(--back-light-black);
+  color: var(--white-text);
+}
+
+.hero-title {
+  color: var(--white-text);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+}
+
+.hero-button {
+  background: var(--back-blue);
+  color: var(--white-text);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+}
+
+.advantages-title {
+  color: var(--black-text);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.advantages-description {
+  color: var(--grey-text);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.about-us-title {
+  color: var(--black-text);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
+.our-team {
+  color: var(--black-text);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
+.team-members {
+  color: var(--black-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.team-members-position {
+  color: var(--grey-text);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.our-projects-filters {
+  background: var(--back-light-grey);
+  color: var(--black-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+}
+
+.our-projects-filters:hover,
+.our-projects-filters:focus {
+  background: var(--back-blue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+}
+
+.our-projects-title {
+  color: var(--black-text);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.our-project {
+  color: var(--grey-text);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
+.footer-background {
+  background: var(--back-light-black);
+}
+
+.logo-white {
+  font-family: "Raleway", sans-serif;
+  color: var(--white-text);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.link-white {
+  color: var(--white-text);
+}
+
+.link-grey-footer {
+  color: var(--grey-text-op60);
+}
+
+
+.link-grey-footer:hover,
+.link-grey-footer:focus {
+  color: var(--back-blue);
+}
+
+.link-white:hover,
+.link-white:focus {
+  color: var(--back-blue);
+}
