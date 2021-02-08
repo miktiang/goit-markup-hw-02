@@ -1,19 +1,19 @@
 :root {
-  --white-text: #FFFFFF;
+  --white-text: #ffffff;
   --black-text: #212121;
   --grey-text: #757575;
   --grey-text-op60: rgba(255, 255, 255, 0.6);
-  --back-light-black: #2F303A;
-  --back-light-grey: #F5F4FA;
-  --back-blue: #2196F3;
+  --back-light-black: #2f303a;
+  --back-light-grey: #f5f4fa;
+  --back-blue: #2196f3;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo-black {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -26,6 +26,10 @@ body {
 
 .link-black {
   color: var(--black-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .current:visited {
@@ -34,6 +38,10 @@ body {
 
 .link-grey {
   color: var(--grey-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .link-black:hover,
@@ -57,6 +65,7 @@ body {
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -74,6 +83,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .advantages-description {
@@ -155,7 +165,7 @@ body {
 }
 
 .logo-white {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: var(--white-text);
   font-weight: bold;
   font-size: 26px;
@@ -168,8 +178,11 @@ body {
 
 .link-grey-footer {
   color: var(--grey-text-op60);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
-
 
 .link-grey-footer:hover,
 .link-grey-footer:focus {
