@@ -296,6 +296,8 @@ a {
   text-decoration: none;
 }
 
+/* Hide invisible title */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
