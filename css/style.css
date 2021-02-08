@@ -1,3 +1,4 @@
+/* All colors in project */
 :root {
   --white-text: #ffffff;
   --black-text: #212121;
@@ -8,10 +9,12 @@
   --back-blue: #2196f3;
 }
 
+/* Font-family in body index and portfolio */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Header in index and portfolio */
 .logo-black {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -45,15 +48,18 @@ body {
 }
 
 .link-black:hover,
-.link-black:focus {
-  color: var(--back-blue);
-}
-
+.link-black:focus,
 .link-grey:hover,
 .link-grey:focus {
   color: var(--back-blue);
 }
 
+/* .link-grey:hover,
+.link-grey:focus {
+  color: var(--back-blue);
+} */
+
+/* Hero */
 .hero {
   background: var(--back-light-black);
   color: var(--white-text);
@@ -77,6 +83,7 @@ body {
   letter-spacing: 0.06em;
 }
 
+/* Advantages */
 .advantages-title {
   color: var(--black-text);
   font-weight: 700;
@@ -94,14 +101,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.about-us-title {
-  color: var(--black-text);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-}
-
+/* About us and our team */
+.about-us-title,
 .our-team {
   color: var(--black-text);
   font-weight: 700;
@@ -109,6 +110,14 @@ body {
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+
+/* .our-team {
+  color: var(--black-text);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+} */
 
 .team-members {
   color: var(--black-text);
@@ -135,6 +144,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Our projects from portfolio */
 .our-projects-filters:hover,
 .our-projects-filters:focus {
   background: var(--back-blue);
@@ -161,6 +171,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Footer in index and portfolio */
 .footer-background {
   background: var(--back-light-black);
 }
@@ -186,11 +197,13 @@ body {
 }
 
 .link-grey-footer:hover,
-.link-grey-footer:focus {
-  color: var(--back-blue);
-}
-
+.link-grey-footer:focus,
 .link-white:hover,
 .link-white:focus {
   color: var(--back-blue);
 }
+
+/* .link-white:hover,
+.link-white:focus {
+  color: var(--back-blue);
+} */
